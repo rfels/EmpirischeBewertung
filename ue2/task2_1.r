@@ -34,5 +34,5 @@ summary(myread.cvsdata("data/zile.tsv"))
 	
 ####### task 2_1 c) #######
 
-
-
+nrow(unique(origFile["developer"]))
+sort(table(origFile["developer"]))
