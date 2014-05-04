@@ -44,8 +44,7 @@ myanalyze.cvsdata<-function(x){
 list(
      "#developers"=nrow(unique(x["developer"])),
      "#commits"=sort(table(x["developer"])),
-     "#of files with commits"=table(unique(x[c("developer","file")])["developer"])
-     "%of files with commits"=table(unique(x[c("developer","file")])["developer"])/nrow(unique(origFile["file"]))
-
+     "#of files with commits"=table(unique(x[c("developer","file")])["developer"]),
+     "%of files with commits"=table(unique(x[c("developer","file")])["developer"])/nrow(unique(x["file"]))
      )
 }
