@@ -36,3 +36,4 @@ summary(myread.cvsdata("data/zile.tsv"))
 
 nrow(unique(origFile["developer"]))
 sort(table(origFile["developer"]))
+table(unique(origFile[c("developer","file")])["developer"])
