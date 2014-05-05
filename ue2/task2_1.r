@@ -43,6 +43,16 @@ get5MostActiveDevs("data/jikes.tsv")
 nrow(unique(origFile["developer"]))
 sort(table(origFile["developer"]))
 
+table(unique(origFile[c("developer","file")])["developer"])
+table(unique(origFile[c("developer","file")])["developer"])/nrow(unique(origFile["file"]))
 
-
+####### task 2_1 d) #######
+myanalyze.cvsdata<-function(x){
+list(
+     "#developers"=nrow(unique(x["developer"])),
+     "#commits"=sort(table(x["developer"])),
+     "#of files with commits"=table(unique(x[c("developer","file")])["developer"]),
+     "%of files with commits"=table(unique(x[c("developer","file")])["developer"])/nrow(unique(x["file"]))
+     )
+}
 
