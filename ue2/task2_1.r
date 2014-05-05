@@ -1,3 +1,5 @@
+#### Übung 2: Empirische Bewertung - Abgabe: Christoph Krüger, Robert Fels ####
+
 ####### task 2_1 a) + b) #######
 #read data into data.frame
 origFile = read.delim("data/junit200.tsv",as.is=T)
