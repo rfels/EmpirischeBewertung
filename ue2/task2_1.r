@@ -34,5 +34,15 @@ summary(myread.cvsdata("data/zile.tsv"))
 	
 ####### task 2_1 c) #######
 
+getDevAmount = function (csvFile) length(levels(myread.cvsdata(csvFile) $developerf))
+getDevAmount("data/junit.tsv")
+
+get5MostActiveDevs = function (cvsFile) sort(table(myread.cvsdata(cvsFile)$developer),decreasing=T)[1:5]
+get5MostActiveDevs("data/jikes.tsv")
+
 nrow(unique(origFile["developer"]))
 sort(table(origFile["developer"]))
+
+
+
+
