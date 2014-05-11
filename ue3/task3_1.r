@@ -15,4 +15,7 @@ junit = myread.cvsdata("data/junit200.tsv")
 
 #### task3-1 a) ####
 
+junit$tstamp2 = as.POSIXct(junit$tstamp)
 
+mode(junit$tstamp2[1])
+class(junit$tstamp2[1])
