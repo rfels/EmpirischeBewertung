@@ -19,3 +19,13 @@ junit$tstamp2 = as.POSIXct(junit$tstamp)
 
 mode(junit$tstamp2[1])
 class(junit$tstamp2[1])
+
+#### task3-1 b) ####
+
+junit$tstamp3 = as.numeric(junit$tstamp2)
+
+# diff in days
+diff(junit$tstamp2[1:2])
+# diff in seconds
+diff(junit$tstamp3[1:2])
+
