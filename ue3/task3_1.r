@@ -29,23 +29,43 @@ junit$tstamp3 = as.numeric(junit$tstamp2)
 diff(junit$tstamp2[1:2])
 # diff in seconds
 diff(junit$tstamp3[1:2])
+<<<<<<< HEAD
 # diff in seconds, another solution
 difftime(junit$tstamp2[1],junit$tstamp2[2],units="secs")
 
 #### task3-1 c) ####
-# weekday column
-junit$wday = weekdays(junit$tstamp2)
-# hour column
-junit$hour = format(junit$tstamp2,format="%H")
+#days and hours extracting
+junit$wday <-weekdays(as.POSIXlt(junit$tstamp2,t="UTC"))
+junit$hour <- strftime(as.POSIXlt(junit$tstamp2,t ="UTC"),format="%H")
 
 #sum of activities at each weekday + minimum and maximum
 table(junit$wday)
 summary(as.vector(table(junit$wday)))
-# -> in junit200: MIN=16 (Friday) MAX=73 (Sunday)
+# -> in junit200: MIN=16 (Wednesday) MAX=69 (Sunday)
 #sum of activities at each hour + minimum and maximum
 table(junit$hour)
 summary(as.vector(table(junit$hour)))
-# -> in junit200: MIN=1  MAX=51 (15 h)
+# -> in junit200: MIN=1  MAX=49 (14 h)
 
-# --->  Most contributors commiting sundays from 15 to 15.59 o'clock
+# --->  Most contributors commiting sundays from 14 to 14.59 o'clock (UTC)
+#### task3-1 d) ####
+#plots
+plot(table(junit$wday))
+plot(table(junit$hour))
+
+#### task3-1 e) ####
+#labels
+plot(factor(junit$wday,labels=strtrim(levels(factor(junit$wday)),2)))
+#### task3-1 f) ####
+#boxplot
+
+boxplot(log(lines_add+1,2)~developer,junit)
+boxplot(log(lines_del+1,2)~developer,junit)
+
+#### task3-1 g) ####
+
+#### task3-1 h) ####
+plot(density(junit$lines_add,width=1))
+
+#width fasst werte zu einem tik zusammen
 
