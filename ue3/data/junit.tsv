@@ -1,0 +1,624 @@
+file	tstamp	developer	version	lines_add	lines_del	description
+/cvsroot/junit/junit/README.html	2004-11-17 23:07:28.0	egamma	1.10	660	527	updated for 3.8.2
+/cvsroot/junit/junit/README.html	2002-09-01 00:29:52.0	egamma	1.9	8	2	fix for 602948 Swing UI: NoSuchMethodError on JDK 1.3
+/cvsroot/junit/junit/README.html	2002-08-31 18:44:09.0	egamma	1.8	14	3	backed out calling setContextClassLoader on the test thread
+/cvsroot/junit/junit/README.html	2002-08-23 20:43:51.0	egamma	1.7	128	8	3.8 clean-up
+/cvsroot/junit/junit/README.html	2001-05-21 21:50:15.0	egamma	1.6	67	5	changes for 3.7
+/cvsroot/junit/junit/README.html	2001-04-08 02:18:42.0	egamma	1.5	74	248	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/README.html	2001-04-01 23:22:15.0	egamma	1.4	20	6	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/README.html	2001-01-17 01:02:18.0	egamma	1.3	9	7	Added missing invokeLater calls for the Swing TestRunnerChanged the default test collector to the simple test collector.
+/cvsroot/junit/junit/README.html	2001-01-10 00:39:50.0	egamma	1.2	148	10	JUnit 3.5 candidate
+/cvsroot/junit/junit/README.html	2000-12-03 15:36:14.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/README.html	2000-12-03 15:36:14.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/build.xml	2004-11-17 23:47:23.0	egamma	1.13	2	0	run awtui and swingui with -noload
+/cvsroot/junit/junit/build.xml	2004-11-13 01:33:00.0	egamma	1.12	3	3	update script to not include settings and style sheet in the src.jar
+/cvsroot/junit/junit/build.xml	2002-08-31 18:44:09.0	egamma	1.11	1	1	backed out calling setContextClassLoader on the test thread
+/cvsroot/junit/junit/build.xml	2002-08-23 20:43:51.0	egamma	1.10	4	3	3.8 clean-up
+/cvsroot/junit/junit/build.xml	2002-02-14 21:58:36.0	emeade	1.9	1	0	Added JUnit.org stylesheet and modified build to use it.
+/cvsroot/junit/junit/build.xml	2002-02-07 00:43:07.0	emeade	1.8	2	0	Added build.compiler property and properties file to allow the compilerto be set to jikes so CruiseControl works.
+/cvsroot/junit/junit/build.xml	2002-02-06 22:12:01.0	emeade	1.7	15	22	Close bug #496521, thanks Scott Stirling.
+/cvsroot/junit/junit/build.xml	2002-02-06 21:42:19.0	emeade	1.6	20	4	Close bug #496519, thanks to Scott Stirling.  Added a clean target, fixedthe hardcoded values in the zip target by making the target dependent onthe init target.
+/cvsroot/junit/junit/build.xml	2001-05-21 21:50:15.0	egamma	1.5	1	1	changes for 3.7
+/cvsroot/junit/junit/build.xml	2001-04-01 23:22:15.0	egamma	1.4	6	6	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/build.xml	2001-01-18 01:22:49.0	egamma	1.3	2	2	fixed wrong comment
+/cvsroot/junit/junit/build.xml	2001-01-18 01:01:08.0	egamma	1.2	54	56	updgrade build.xml to ant2.0
+/cvsroot/junit/junit/build.xml	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/cpl-v10.html	2002-08-23 20:43:51.0	egamma	1.1	0	0	3.8 clean-up
+/cvsroot/junit/junit/Attic/jar-manifest.txt	2001-01-18 01:01:08.0	egamma	1.2	0	0	updgrade build.xml to ant2.0
+/cvsroot/junit/junit/Attic/jar-manifest.txt	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/stylesheet.css	2002-03-30 23:37:40.0	egamma	1.2	1	1	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/stylesheet.css	2002-02-14 21:58:36.0	emeade	1.1	0	0	Added JUnit.org stylesheet and modified build to use it.
+/cvsroot/junit/junit/doc/Changes34.html	2001-04-08 02:18:42.0	egamma	1.1	0	0	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/doc/JUnitProperties.html	2001-04-08 02:18:42.0	egamma	1.1	0	0	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/doc/changes21.html	2000-12-03 15:36:35.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/doc/changes21.html	2000-12-03 15:36:35.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/doc/Attic/license.htm	2000-12-09 23:34:15.0	egamma	1.2	0	0	remove the old license file
+/cvsroot/junit/junit/doc/Attic/license.htm	2000-12-03 15:36:35.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/doc/Attic/license.htm	2000-12-03 15:36:35.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/doc/cookbook/Attic/IMG00002.GIF	2002-01-16 22:35:05.0	emeade	1.3	0	0	Updated cookbook to reflect changes in JUnit.
+/cvsroot/junit/junit/doc/cookbook/Attic/IMG00002.GIF	2001-07-10 00:44:19.0	egamma	1.2	24	1	fixed corrupt image
+/cvsroot/junit/junit/doc/cookbook/Attic/IMG00002.GIF	2000-12-03 15:36:36.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/doc/cookbook/Attic/IMG00002.GIF	2000-12-03 15:36:36.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/doc/cookbook/cookbook.htm	2002-08-31 14:47:58.0	emeade	1.6	6	6	Pointed Javadoc urls which are not include in the javadocs to the javadocson JUnit.org.
+/cvsroot/junit/junit/doc/cookbook/cookbook.htm	2002-08-23 20:43:51.0	egamma	1.5	55	39	3.8 clean-up
+/cvsroot/junit/junit/doc/cookbook/cookbook.htm	2002-01-16 22:35:05.0	emeade	1.4	5	9	Updated cookbook to reflect changes in JUnit.
+/cvsroot/junit/junit/doc/cookbook/cookbook.htm	2002-01-07 18:33:16.0	emeade	1.3	11	2	Changed assert to assertTrue.Added creating a constructor which accepts a String.
+/cvsroot/junit/junit/doc/cookbook/cookbook.htm	2001-05-21 21:50:15.0	egamma	1.2	0	8	changes for 3.7
+/cvsroot/junit/junit/doc/cookbook/cookbook.htm	2000-12-03 15:36:38.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/doc/cookbook/cookbook.htm	2000-12-03 15:36:38.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/doc/cookstour/cookstour.htm	2003-12-20 19:30:46.0	emeade	1.2	5	5	assert to assertTrue
+/cvsroot/junit/junit/doc/cookstour/cookstour.htm	2000-12-03 15:36:42.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/doc/cookstour/cookstour.htm	2000-12-03 15:36:42.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/doc/faq/faq.htm	2004-12-28 18:19:01.0	clarkware	1.30	342	340	Now XHTML compliant
+/cvsroot/junit/junit/doc/faq/faq.htm	2004-12-28 05:00:15.0	clarkware	1.29	2827	23	Styled for easier maintenance.
+/cvsroot/junit/junit/doc/faq/faq.htm	2004-10-28 17:39:10.0	clarkware	1.28	13	2	*** empty log message ***
+/cvsroot/junit/junit/doc/faq/faq.htm	2004-09-23 23:19:56.0	clarkware	1.27	1	1	*** empty log message ***
+/cvsroot/junit/junit/doc/faq/faq.htm	2004-09-18 01:02:47.0	clarkware	1.26	18	1	*** empty log message ***
+/cvsroot/junit/junit/doc/faq/faq.htm	2004-06-01 16:10:16.0	clarkware	1.25	1	1	*** empty log message ***
+/cvsroot/junit/junit/doc/faq/faq.htm	2003-05-25 23:03:28.0	clarkware	1.24	1	1	Fixed broken link to &quot;How To Ask Questions The Smart Way&quot;.
+/cvsroot/junit/junit/doc/faq/faq.htm	2003-04-22 18:25:29.0	clarkware	1.23	1	1	Added &quot;How do I write a test for an abstract class?&quot;
+/cvsroot/junit/junit/doc/faq/faq.htm	2003-03-20 19:55:54.0	clarkware	1.22	1	1	Added &quot;How do I organize all test classes in a TestSuite automatically and not use or manage a TestSuite explicitly?&quot;
+/cvsroot/junit/junit/doc/faq/faq.htm	2003-02-28 23:13:37.0	clarkware	1.21	1	1	Added &quot;How do I get one test suite to invoke another?&quot;
+/cvsroot/junit/junit/doc/faq/faq.htm	2003-01-28 23:54:39.0	clarkware	1.20	1	1	Added &quot;Is there a basic template I can use to create a test?&quot;
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-12-19 04:07:27.0	clarkware	1.19	1	1	Added Eric Armstrong&apos;s submissions to the &quot;Running Tests&quot; section.Ain&apos;t that classpath just a bundle of joy?
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-11-13 15:36:55.0	clarkware	1.18	1	1	Added &quot;How do I pass command-line arguments to a test execution?&quot;
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-08-19 23:36:05.0	clarkware	1.17	1	1	Added &quot;Why does the &quot;excluded.properties&quot; trick not work when runningJUnit&apos;s GUI from inside my favorite IDE?&quot;Chalk another one up for that onery classpath.
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-07-25 03:22:54.0	clarkware	1.16	1	1	Added &quot;Why do I get a NoClassDefFoundError when trying to test JUnit or run the samples?&quot;
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-06-27 21:20:52.0	clarkware	1.15	1	1	Added &quot;Do I need to write a TestCase class for every class I need to test?&quot;
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-06-20 18:32:26.0	clarkware	1.14	1	1	Added &quot;What&apos;s the difference between a failure and an error?&quot;
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-06-18 20:04:47.0	clarkware	1.13	1	1	Added removal of junit.jar from classpath when uninstalling.Minor corrections.
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-06-14 15:55:13.0	clarkware	1.12	1	161	First version with new format and additional entries
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-02-14 20:45:00.0	emeade	1.11	6	0	How do I test things that have to run in a container (Servlets, EJBs)?
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-02-05 21:56:30.0	emeade	1.10	3	3	Fixed more typos, thanks Sir Toby!
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-02-05 21:01:09.0	emeade	1.9	1	1	Fixed typo
+/cvsroot/junit/junit/doc/faq/faq.htm	2002-02-05 20:56:32.0	emeade	1.8	154	196	Answered How do I test private and protected methods.
+/cvsroot/junit/junit/doc/faq/faq.htm	2001-10-28 00:14:19.0	emeade	1.7	15	4	Answered: Why do I get an error with the GUI TestRunners but not the textui.TestRunner?
+/cvsroot/junit/junit/doc/faq/faq.htm	2001-10-25 04:49:12.0	emeade	1.6	17	1	Added assert FAQ.
+/cvsroot/junit/junit/doc/faq/faq.htm	2001-10-24 06:20:47.0	emeade	1.5	22	74	Added Why do I get a ClassCastException while calling EJB&apos;s from junit?
+/cvsroot/junit/junit/doc/faq/faq.htm	2001-05-21 21:50:15.0	egamma	1.4	1	1	changes for 3.7
+/cvsroot/junit/junit/doc/faq/faq.htm	2001-04-08 02:18:42.0	egamma	1.3	51	10	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/doc/faq/faq.htm	2001-01-10 00:39:50.0	egamma	1.2	23	2	JUnit 3.5 candidate
+/cvsroot/junit/junit/doc/faq/faq.htm	2000-12-03 15:36:43.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/doc/faq/faq.htm	2000-12-03 15:36:43.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/doc/testinfected/testing.htm	2002-02-05 22:44:49.0	emeade	1.6	2	2	Fixed typo pointed out by Mike Cepek.
+/cvsroot/junit/junit/doc/testinfected/testing.htm	2001-10-30 22:04:26.0	emeade	1.5	7	7	Changed the usage of the word log so as not to imply a log file.
+/cvsroot/junit/junit/doc/testinfected/testing.htm	2001-10-24 01:45:30.0	emeade	1.4	29	23	Updated to use assertTrue.  Thanks to Dave Yost.
+/cvsroot/junit/junit/doc/testinfected/testing.htm	2001-04-08 02:18:42.0	egamma	1.3	20	14	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/doc/testinfected/testing.htm	2001-04-01 23:22:16.0	egamma	1.2	1	1	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/doc/testinfected/testing.htm	2000-12-03 15:36:47.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/doc/testinfected/testing.htm	2000-12-03 15:36:47.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/awtui/AboutDialog.java	2004-09-09 23:53:56.0	kbeck	1.3	12	2	Fixed two warnings
+/cvsroot/junit/junit/junit/awtui/AboutDialog.java	2001-01-10 00:39:50.0	egamma	1.2	1	9	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/awtui/AboutDialog.java	2000-12-03 15:36:15.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/awtui/AboutDialog.java	2000-12-03 15:36:15.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/awtui/Logo.java	2004-09-09 23:53:56.0	kbeck	1.3	7	2	Fixed two warnings
+/cvsroot/junit/junit/junit/awtui/Logo.java	2001-01-10 00:39:50.0	egamma	1.2	3	1	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/awtui/Logo.java	2000-12-03 15:36:15.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/awtui/Logo.java	2000-12-03 15:36:15.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/awtui/ProgressBar.java	2004-09-09 23:53:56.0	kbeck	1.2	5	1	Fixed two warnings
+/cvsroot/junit/junit/junit/awtui/ProgressBar.java	2000-12-03 15:36:15.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/awtui/ProgressBar.java	2000-12-03 15:36:15.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2004-09-09 23:53:56.0	kbeck	1.15	36	4	Fixed two warnings
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2002-09-03 00:22:45.0	egamma	1.14	1	1	removed some unused methods
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2002-09-01 00:29:14.0	egamma	1.13	0	1	removed unused parameters/fields as detected by PMD
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2002-04-08 20:54:11.0	kbeck	1.12	0	7	Deleted deprecated methods and classes, this time really
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2002-04-02 07:35:57.0	egamma	1.11	1	1	removed JDK 1.4 dependency
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2002-04-02 00:57:41.0	egamma	1.10	70	7	fixed a layout problem in the counter panel - changed the layout to a GridBagLayout
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2002-03-30 23:37:41.0	egamma	1.9	8	12	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2001-11-02 02:37:53.0	emeade	1.8	62	58	Make rerunTest identical in awtui.TestRunner and swingui.TestRunner.
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2001-10-29 20:47:45.0	emeade	1.7	1	1	Fix for bug #471102, replaced GridBagConstrants.HORIZONTAL to NONE.
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2001-10-21 04:30:18.0	kbeck	1.6	21	18	Preparing for TestRunListener. Pushed TestListener implementation up to BaseTestRunner.
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2001-05-21 21:50:15.0	egamma	1.5	8	18	changes for 3.7
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2001-04-08 02:18:42.0	egamma	1.4	3	3	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2001-04-01 23:22:16.0	egamma	1.3	28	11	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2001-01-10 00:39:50.0	egamma	1.2	10	14	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2000-12-03 15:36:17.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/awtui/TestRunner.java	2000-12-03 15:36:17.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/awtui/Attic/WarningDialog.java	2001-05-21 21:50:15.0	egamma	1.2	0	0	changes for 3.7
+/cvsroot/junit/junit/junit/awtui/Attic/WarningDialog.java	2001-04-01 23:22:16.0	egamma	1.1	0	0	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/awtui/Attic/logo.gif	2002-03-30 23:37:41.0	egamma	1.2	0	0	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/awtui/Attic/logo.gif	2000-12-03 15:36:17.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/awtui/Attic/logo.gif	2000-12-03 15:36:17.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/awtui/Attic/smalllogo.gif	2002-03-30 23:37:41.0	egamma	1.2	0	0	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/awtui/Attic/smalllogo.gif	2000-12-03 15:36:17.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/awtui/Attic/smalllogo.gif	2000-12-03 15:36:17.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/extensions/ActiveTestSuite.java	2004-10-24 09:37:06.0	egamma	1.6	2	2	removed 1.5 warnings related to varargs
+/cvsroot/junit/junit/junit/extensions/ActiveTestSuite.java	2004-09-09 23:53:56.0	kbeck	1.5	3	1	Fixed two warnings
+/cvsroot/junit/junit/junit/extensions/ActiveTestSuite.java	2002-03-29 17:10:13.0	kbeck	1.4	15	0	Kent &amp; Erich patch swallowing in Merlin
+/cvsroot/junit/junit/junit/extensions/ActiveTestSuite.java	2001-04-08 02:18:42.0	egamma	1.3	3	2	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/junit/extensions/ActiveTestSuite.java	2001-01-10 00:39:50.0	egamma	1.2	2	2	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/extensions/ActiveTestSuite.java	2000-12-03 15:36:17.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/extensions/ActiveTestSuite.java	2000-12-03 15:36:17.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/extensions/ExceptionTestCase.java	2004-09-09 23:53:56.0	kbeck	1.2	1	1	Fixed two warnings
+/cvsroot/junit/junit/junit/extensions/ExceptionTestCase.java	2000-12-03 15:36:17.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/extensions/ExceptionTestCase.java	2000-12-03 15:36:17.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/extensions/RepeatedTest.java	2004-09-09 23:53:56.0	kbeck	1.3	2	1	Fixed two warnings
+/cvsroot/junit/junit/junit/extensions/RepeatedTest.java	2001-01-10 00:39:50.0	egamma	1.2	2	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/extensions/RepeatedTest.java	2000-12-03 15:36:17.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/extensions/RepeatedTest.java	2000-12-03 15:36:17.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/extensions/TestDecorator.java	2004-09-09 23:53:56.0	kbeck	1.5	3	1	Fixed two warnings
+/cvsroot/junit/junit/junit/extensions/TestDecorator.java	2001-10-24 06:21:17.0	emeade	1.4	2	6	Backed out getDisplayName
+/cvsroot/junit/junit/junit/extensions/TestDecorator.java	2001-10-22 23:12:01.0	kbeck	1.3	4	0	Experimental getDisplayName
+/cvsroot/junit/junit/junit/extensions/TestDecorator.java	2001-04-01 23:22:16.0	egamma	1.2	1	1	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/extensions/TestDecorator.java	2000-12-03 15:36:17.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/extensions/TestDecorator.java	2000-12-03 15:36:17.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/extensions/TestSetup.java	2004-09-09 23:53:56.0	kbeck	1.2	3	1	Fixed two warnings
+/cvsroot/junit/junit/junit/extensions/TestSetup.java	2000-12-03 15:36:17.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/extensions/TestSetup.java	2000-12-03 15:36:17.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/framework/Assert.java	2004-11-17 23:06:08.0	egamma	1.21	7	7	fixed javadoc formatting
+/cvsroot/junit/junit/junit/framework/Assert.java	2004-10-23 03:06:42.0	kbeck	1.20	3	6	[ 609819 ] NaN&apos;s in assertEquals
+/cvsroot/junit/junit/junit/framework/Assert.java	2004-10-23 02:18:34.0	kbeck	1.19	3	3	[ 658044 ] failNotEquals() should be protectedWe made all the varieties of fail*() public.
+/cvsroot/junit/junit/junit/framework/Assert.java	2004-09-03 18:27:28.0	egamma	1.18	1	1	incorporate find bugs findings
+/cvsroot/junit/junit/junit/framework/Assert.java	2003-12-10 18:12:01.0	emeade	1.17	6	5	Fix cut-n-paste error for assertNotSame javadocs
+/cvsroot/junit/junit/junit/framework/Assert.java	2002-09-01 00:28:57.0	egamma	1.16	2	2	removed unused parameters/fields as detected by PMD
+/cvsroot/junit/junit/junit/framework/Assert.java	2002-08-31 18:48:32.0	kbeck	1.15	5	1	Factored out commonality between ComparisonFailure and Assert. There still looks to be more to do in Assert itself.
+/cvsroot/junit/junit/junit/framework/Assert.java	2002-06-25 09:18:34.0	egamma	1.14	20	1	overloaded assertEquals for Strings so that string prefix/suffix compression is only done when comparing Strings
+/cvsroot/junit/junit/junit/framework/Assert.java	2002-06-24 21:36:26.0	kbeck	1.13	1	1	The problem is better solved by only using ComparisonFailurewhen comparing Strings. Once we have more experience ofactual usage of ComparisonFailure, we can consider expandingit to comparisons of objects.
+/cvsroot/junit/junit/junit/framework/Assert.java	2002-06-24 21:22:34.0	vbossica	1.12	1	1	FailNoEquals: passing of null parameters
+/cvsroot/junit/junit/junit/framework/Assert.java	2002-06-22 02:28:03.0	egamma	1.11	1	4	added support for reporting only the deltas for failed assert equals
+/cvsroot/junit/junit/junit/framework/Assert.java	2002-04-08 20:54:10.0	kbeck	1.10	0	18	Deleted deprecated methods and classes, this time really
+/cvsroot/junit/junit/junit/framework/Assert.java	2002-03-29 17:10:13.0	kbeck	1.9	1	1	Kent &amp; Erich patch swallowing in Merlin
+/cvsroot/junit/junit/junit/framework/Assert.java	2001-12-24 02:19:19.0	emeade	1.8	29	19	Added more Javadoc to Assert for messages and when they are displayed.Put versiontag back into Version.
+/cvsroot/junit/junit/junit/framework/Assert.java	2001-10-21 18:18:54.0	kbeck	1.7	28	6	Added assertNotSame, thanks to Vladimir Bossicard
+/cvsroot/junit/junit/junit/framework/Assert.java	2001-10-19 23:48:32.0	kbeck	1.6	14	0	Added assertFalse.
+/cvsroot/junit/junit/junit/framework/Assert.java	2001-05-21 21:50:16.0	egamma	1.5	21	2	changes for 3.7
+/cvsroot/junit/junit/junit/framework/Assert.java	2001-04-08 02:18:42.0	egamma	1.4	2	2	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/junit/framework/Assert.java	2001-04-01 23:22:16.0	egamma	1.3	20	6	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/framework/Assert.java	2001-01-10 00:39:50.0	egamma	1.2	105	53	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/framework/Assert.java	2000-12-03 15:36:18.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/framework/Assert.java	2000-12-03 15:36:18.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/framework/AssertionFailedError.java	2004-09-11 15:49:07.0	egamma	1.2	2	0	removed some warnings
+/cvsroot/junit/junit/junit/framework/AssertionFailedError.java	2000-12-03 15:36:18.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/framework/AssertionFailedError.java	2000-12-03 15:36:18.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/framework/ComparisonCompactor.java	2004-10-24 08:41:48.0	kbeck	1.1	0	0	[ 609972 ] &quot;...&quot; in ComparisonFailure
+/cvsroot/junit/junit/junit/framework/ComparisonFailure.java	2004-10-24 08:41:48.0	kbeck	1.9	17	36	[ 609972 ] &quot;...&quot; in ComparisonFailure
+/cvsroot/junit/junit/junit/framework/ComparisonFailure.java	2004-09-11 15:49:07.0	egamma	1.8	2	0	removed some warnings
+/cvsroot/junit/junit/junit/framework/ComparisonFailure.java	2002-08-31 18:48:32.0	kbeck	1.7	2	10	Factored out commonality between ComparisonFailure and Assert. There still looks to be more to do in Assert itself.
+/cvsroot/junit/junit/junit/framework/ComparisonFailure.java	2002-08-30 22:21:45.0	egamma	1.6	9	4	fixing 601326
+/cvsroot/junit/junit/junit/framework/ComparisonFailure.java	2002-08-23 20:43:51.0	egamma	1.5	1	1	3.8 clean-up
+/cvsroot/junit/junit/junit/framework/ComparisonFailure.java	2002-06-27 00:33:35.0	kbeck	1.4	1	1	Fixed small comments
+/cvsroot/junit/junit/junit/framework/ComparisonFailure.java	2002-06-25 09:18:18.0	egamma	1.3	1	4	overloaded assertEquals for Strings so that string prefix/suffix compression is only done when comparing Strings
+/cvsroot/junit/junit/junit/framework/ComparisonFailure.java	2002-06-25 09:05:58.0	egamma	1.2	4	12	simplified string prefix/suffix computation
+/cvsroot/junit/junit/junit/framework/ComparisonFailure.java	2002-06-22 02:28:03.0	egamma	1.1	0	0	added support for reporting only the deltas for failed assert equals
+/cvsroot/junit/junit/junit/framework/Protectable.java	2000-12-03 15:36:18.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/framework/Protectable.java	2000-12-03 15:36:18.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/framework/Test.java	2001-10-24 06:21:17.0	emeade	1.3	0	4	Backed out getDisplayName
+/cvsroot/junit/junit/junit/framework/Test.java	2001-10-22 23:12:02.0	kbeck	1.2	4	0	Experimental getDisplayName
+/cvsroot/junit/junit/junit/framework/Test.java	2000-12-03 15:36:18.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/framework/Test.java	2000-12-03 15:36:18.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/framework/TestCase.java	2004-10-24 09:37:06.0	egamma	1.18	8	13	removed 1.5 warnings related to varargs
+/cvsroot/junit/junit/junit/framework/TestCase.java	2004-10-23 08:47:22.0	kbeck	1.17	11	6	[ 908467 ] Run one test method for junit
+/cvsroot/junit/junit/junit/framework/TestCase.java	2004-10-11 21:22:08.0	kbeck	1.16	7	6	My previous fix didn&apos;t work correctly.This version should report exceptions thrown while running tests.If an exception is thrown during tearDown() also, the exceptionthrown while running the test will be reported.
+/cvsroot/junit/junit/junit/framework/TestCase.java	2004-09-10 20:27:23.0	kbeck	1.15	8	1	Make sure an exception thrown during tearDown() doesn&apos;t mask anexception thrown during running the test. I don&apos;t much like the TestCase.runBare()code but I can&apos;t see how to simplify it. It was so much simpler before. Sniff...
+/cvsroot/junit/junit/junit/framework/TestCase.java	2004-09-09 23:53:54.0	kbeck	1.14	3	1	Fixed two warnings
+/cvsroot/junit/junit/junit/framework/TestCase.java	2003-12-21 06:47:46.0	emeade	1.13	1	1	fix to follow coding convention
+/cvsroot/junit/junit/junit/framework/TestCase.java	2003-12-20 21:22:24.0	emeade	1.12	2	2	fix doc
+/cvsroot/junit/junit/junit/framework/TestCase.java	2002-08-23 20:43:51.0	egamma	1.11	2	6	3.8 clean-up
+/cvsroot/junit/junit/junit/framework/TestCase.java	2002-03-29 17:10:13.0	kbeck	1.10	3	2	Kent &amp; Erich patch swallowing in Merlin
+/cvsroot/junit/junit/junit/framework/TestCase.java	2002-02-14 22:02:38.0	emeade	1.9	2	2	Close bug #517421 changed example in javadoc to use assertTrue rather thandeprecated assert.  Thanks Knut Wannheden.
+/cvsroot/junit/junit/junit/framework/TestCase.java	2001-11-10 15:39:34.0	kbeck	1.8	1	1	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/framework/TestCase.java	2001-10-29 20:54:31.0	emeade	1.7	3	3	Fix for bug#469815.  Documentation bug.
+/cvsroot/junit/junit/junit/framework/TestCase.java	2001-10-24 06:21:17.0	emeade	1.6	1	11	Backed out getDisplayName
+/cvsroot/junit/junit/junit/framework/TestCase.java	2001-10-22 23:12:02.0	kbeck	1.5	6	0	Experimental getDisplayName
+/cvsroot/junit/junit/junit/framework/TestCase.java	2001-10-21 18:18:54.0	kbeck	1.4	1	8	Added assertNotSame, thanks to Vladimir Bossicard
+/cvsroot/junit/junit/junit/framework/TestCase.java	2001-05-21 21:50:16.0	egamma	1.3	27	1	changes for 3.7
+/cvsroot/junit/junit/junit/framework/TestCase.java	2001-04-01 23:22:16.0	egamma	1.2	2	2	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/framework/TestCase.java	2000-12-03 15:36:19.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/framework/TestCase.java	2000-12-03 15:36:19.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/framework/TestFailure.java	2002-06-22 02:28:03.0	egamma	1.3	1	0	added support for reporting only the deltas for failed assert equals
+/cvsroot/junit/junit/junit/framework/TestFailure.java	2001-11-12 01:50:04.0	kbeck	1.2	17	0	I left tests broken, duh... Also, beginning to make TestFailure a narrower interface.
+/cvsroot/junit/junit/junit/framework/TestFailure.java	2000-12-03 15:36:19.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/framework/TestFailure.java	2000-12-03 15:36:19.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/framework/TestListener.java	2001-01-10 00:39:50.0	egamma	1.2	13	13	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/framework/TestListener.java	2000-12-03 15:36:19.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/framework/TestListener.java	2000-12-03 15:36:19.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/framework/TestResult.java	2004-09-09 23:53:54.0	kbeck	1.5	1	1	Fixed two warnings
+/cvsroot/junit/junit/junit/framework/TestResult.java	2002-04-08 20:54:11.0	kbeck	1.4	1	22	Deleted deprecated methods and classes, this time really
+/cvsroot/junit/junit/junit/framework/TestResult.java	2001-01-11 00:23:52.0	egamma	1.3	2	1	fixes for JDK 1.1.7 compatibility
+/cvsroot/junit/junit/junit/framework/TestResult.java	2001-01-10 00:39:50.0	egamma	1.2	6	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/framework/TestResult.java	2000-12-03 15:36:20.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/framework/TestResult.java	2000-12-03 15:36:20.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2004-10-24 00:05:36.0	kbeck	1.15	24	0	added support to add an array of test classes
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2004-10-23 00:06:35.0	kbeck	1.14	111	111	[ 777097 ] RFE: make private methods protectedFixed by making TestSuite.warning() public.
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2004-09-09 23:53:54.0	kbeck	1.13	7	3	Fixed two warnings
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2004-09-01 23:37:07.0	egamma	1.12	1	1	removed the umlauts in the comments
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2002-03-31 20:09:28.0	kbeck	1.11	4	0	Added important geographical commentary
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2002-03-30 23:37:40.0	egamma	1.10	10	12	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2002-03-29 17:10:13.0	kbeck	1.9	67	30	Kent &amp; Erich patch swallowing in Merlin
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2001-10-24 06:21:17.0	emeade	1.8	13	23	Backed out getDisplayName
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2001-10-22 23:12:02.0	kbeck	1.7	9	0	Experimental getDisplayName
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2001-05-21 21:50:16.0	egamma	1.6	24	6	changes for 3.7
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2001-04-08 02:18:42.0	egamma	1.5	13	2	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2001-04-01 23:22:16.0	egamma	1.4	19	16	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2001-01-10 00:39:50.0	egamma	1.3	1	1	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2000-12-11 23:20:03.0	egamma	1.2	8	0	*** empty log message ***
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2000-12-03 15:36:20.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/framework/TestSuite.java	2000-12-03 15:36:20.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2004-10-24 09:37:06.0	egamma	1.18	1	1	removed 1.5 warnings related to varargs
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2004-10-24 00:07:48.0	kbeck	1.17	3	2	[ 774304 ] Fix for JUnit 3.8.1 does not compile with JDK 1.1
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2004-10-23 02:34:44.0	kbeck	1.16	1	1	[ 620039 ] BaseTestRunner.setPreference static
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2004-09-09 23:53:55.0	kbeck	1.15	18	4	Fixed two warnings
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2004-02-11 05:12:58.0	emeade	1.14	6	1	Fixes bug reported on Support Request 615265swingui progress bar color on Mac OS X
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2002-03-30 21:04:48.0	emeade	1.13	32	32	coding standard
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2002-03-29 17:10:13.0	kbeck	1.12	35	10	Kent &amp; Erich patch swallowing in Merlin
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2001-11-12 01:50:04.0	kbeck	1.11	7	4	I left tests broken, duh... Also, beginning to make TestFailure a narrower interface.
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2001-11-10 15:39:34.0	kbeck	1.10	3	1	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2001-10-21 04:30:18.0	kbeck	1.9	25	0	Preparing for TestRunListener. Pushed TestListener implementation up to BaseTestRunner.
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2001-10-20 02:47:47.0	kbeck	1.8	1	1	Changed to static initialization for fPreferences in BaseTestRunner and excluded common problem causing packages.
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2001-05-21 21:50:16.0	egamma	1.7	9	3	changes for 3.7
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2001-04-08 02:18:42.0	egamma	1.6	3	3	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2001-04-01 23:22:16.0	egamma	1.5	24	4	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2001-01-11 00:23:52.0	egamma	1.4	10	8	fixes for JDK 1.1.7 compatibility
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2001-01-10 00:39:50.0	egamma	1.3	88	13	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2000-12-03 16:39:24.0	egamma	1.2	3	1	removed JDK 1.2 dependency in BaseTestRunner
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2000-12-03 15:36:20.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/runner/BaseTestRunner.java	2000-12-03 15:36:20.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/runner/ClassPathTestCollector.java	2004-09-09 23:53:55.0	kbeck	1.4	5	2	Fixed two warnings
+/cvsroot/junit/junit/junit/runner/ClassPathTestCollector.java	2001-10-19 23:48:32.0	kbeck	1.3	11	5	Added assertFalse.
+/cvsroot/junit/junit/junit/runner/ClassPathTestCollector.java	2001-04-01 23:22:16.0	egamma	1.2	13	9	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/runner/ClassPathTestCollector.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/runner/FailureDetailView.java	2004-09-09 23:53:56.0	kbeck	1.2	2	2	Fixed two warnings
+/cvsroot/junit/junit/junit/runner/FailureDetailView.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/runner/Attic/LoadingClassPathTestCollector.java	2001-04-01 23:22:16.0	egamma	1.2	0	0	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/runner/Attic/LoadingClassPathTestCollector.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/runner/LoadingTestCollector.java	2004-09-09 23:53:56.0	kbeck	1.4	4	3	Fixed two warnings
+/cvsroot/junit/junit/junit/runner/LoadingTestCollector.java	2002-08-23 07:05:56.0	egamma	1.3	1	1	removed unused imports, variables
+/cvsroot/junit/junit/junit/runner/LoadingTestCollector.java	2002-03-30 23:37:40.0	egamma	1.2	2	5	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/runner/LoadingTestCollector.java	2001-04-01 23:22:16.0	egamma	1.1	0	0	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/runner/ReloadingTestSuiteLoader.java	2002-08-31 18:44:09.0	egamma	1.3	1	3	backed out calling setContextClassLoader on the test thread
+/cvsroot/junit/junit/junit/runner/ReloadingTestSuiteLoader.java	2002-08-23 20:43:51.0	egamma	1.2	9	3	3.8 clean-up
+/cvsroot/junit/junit/junit/runner/ReloadingTestSuiteLoader.java	2000-12-03 15:36:21.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/runner/ReloadingTestSuiteLoader.java	2000-12-03 15:36:21.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/runner/Attic/SimpleClassPathTestCollector.java	2001-04-01 23:22:16.0	egamma	1.2	0	0	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/runner/Attic/SimpleClassPathTestCollector.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/runner/SimpleTestCollector.java	2001-04-01 23:22:16.0	egamma	1.1	0	0	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/runner/Sorter.java	2004-09-09 23:53:56.0	kbeck	1.4	1	3	Fixed two warnings
+/cvsroot/junit/junit/junit/runner/Sorter.java	2002-08-23 07:05:56.0	egamma	1.3	0	1	removed unused imports, variables
+/cvsroot/junit/junit/junit/runner/Sorter.java	2001-01-11 00:23:52.0	egamma	1.2	1	5	fixes for JDK 1.1.7 compatibility
+/cvsroot/junit/junit/junit/runner/Sorter.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/runner/StandardTestSuiteLoader.java	2000-12-03 15:36:21.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/runner/StandardTestSuiteLoader.java	2000-12-03 15:36:21.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/runner/TestCaseClassLoader.java	2004-09-09 23:53:55.0	kbeck	1.6	11	3	Fixed two warnings
+/cvsroot/junit/junit/junit/runner/TestCaseClassLoader.java	2004-09-03 18:27:28.0	egamma	1.5	9	1	incorporate find bugs findings
+/cvsroot/junit/junit/junit/runner/TestCaseClassLoader.java	2001-05-21 21:50:16.0	egamma	1.4	1	1	changes for 3.7
+/cvsroot/junit/junit/junit/runner/TestCaseClassLoader.java	2001-01-17 01:06:23.0	egamma	1.3	5	1	added missing invokeLaters in the swing test runner.changed the default test collector to the simple one.
+/cvsroot/junit/junit/junit/runner/TestCaseClassLoader.java	2001-01-10 00:39:50.0	egamma	1.2	3	2	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/runner/TestCaseClassLoader.java	2000-12-03 15:36:22.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/runner/TestCaseClassLoader.java	2000-12-03 15:36:22.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/runner/TestCollector.java	2004-10-24 09:37:06.0	egamma	1.4	1	0	removed 1.5 warnings related to varargs
+/cvsroot/junit/junit/junit/runner/TestCollector.java	2004-09-09 23:53:55.0	kbeck	1.3	1	1	Fixed two warnings
+/cvsroot/junit/junit/junit/runner/TestCollector.java	2002-08-23 07:05:56.0	egamma	1.2	0	1	removed unused imports, variables
+/cvsroot/junit/junit/junit/runner/TestCollector.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/runner/TestRunListener.java	2002-04-07 19:42:40.0	egamma	1.2	19	19	*** empty log message ***
+/cvsroot/junit/junit/junit/runner/TestRunListener.java	2001-10-21 04:30:18.0	kbeck	1.1	0	0	Preparing for TestRunListener. Pushed TestListener implementation up to BaseTestRunner.
+/cvsroot/junit/junit/junit/runner/TestSuiteLoader.java	2000-12-03 15:36:22.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/runner/TestSuiteLoader.java	2000-12-03 15:36:22.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/runner/Version.java	2004-10-24 09:45:54.0	kbeck	1.12	4	0	[ 654507 ] Printing version number
+/cvsroot/junit/junit/junit/runner/Version.java	2002-08-31 18:44:09.0	egamma	1.11	1	1	backed out calling setContextClassLoader on the test thread
+/cvsroot/junit/junit/junit/runner/Version.java	2002-08-24 02:22:07.0	egamma	1.10	1	1	rolled back to @version@
+/cvsroot/junit/junit/junit/runner/Version.java	2002-08-24 01:04:40.0	kbeck	1.9	1	1	Put back abstract version number
+/cvsroot/junit/junit/junit/runner/Version.java	2002-08-23 20:43:51.0	egamma	1.8	1	1	3.8 clean-up
+/cvsroot/junit/junit/junit/runner/Version.java	2002-03-30 23:48:44.0	egamma	1.7	13	13	rollback to correct version
+/cvsroot/junit/junit/junit/runner/Version.java	2002-03-30 23:37:40.0	egamma	1.6	13	13	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/runner/Version.java	2001-12-24 02:19:19.0	emeade	1.5	13	13	Added more Javadoc to Assert for messages and when they are displayed.Put versiontag back into Version.
+/cvsroot/junit/junit/junit/runner/Version.java	2001-10-24 06:21:17.0	emeade	1.4	1	1	Backed out getDisplayName
+/cvsroot/junit/junit/junit/runner/Version.java	2001-05-21 22:09:24.0	egamma	1.3	14	0	fixed bogus release
+/cvsroot/junit/junit/junit/runner/Version.java	2001-05-21 21:50:16.0	egamma	1.2	0	14	changes for 3.7
+/cvsroot/junit/junit/junit/runner/Version.java	2000-12-03 15:36:22.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/runner/Version.java	2000-12-03 15:36:22.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/runner/excluded.properties	2003-12-25 02:51:34.0	emeade	1.5	2	1	Add org.apache.common.logging.* to excluded.properties. closes tracker 677417
+/cvsroot/junit/junit/junit/runner/excluded.properties	2002-02-05 22:28:05.0	emeade	1.4	2	2	Close bug #496517
+/cvsroot/junit/junit/junit/runner/excluded.properties	2001-10-31 20:54:34.0	emeade	1.3	2	1	Added net.jini.* to list of excluded classes.
+/cvsroot/junit/junit/junit/runner/excluded.properties	2001-10-20 02:47:47.0	kbeck	1.2	3	1	Changed to static initialization for fPreferences in BaseTestRunner and excluded common problem causing packages.
+/cvsroot/junit/junit/junit/runner/excluded.properties	2000-12-03 15:36:22.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/runner/excluded.properties	2000-12-03 15:36:22.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/samples/AllTests.java	2004-09-09 23:53:54.0	kbeck	1.2	2	1	Fixed two warnings
+/cvsroot/junit/junit/junit/samples/AllTests.java	2000-12-03 15:36:22.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/samples/AllTests.java	2000-12-03 15:36:22.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/samples/SimpleTest.java	2004-09-09 23:53:54.0	kbeck	1.5	4	1	Fixed two warnings
+/cvsroot/junit/junit/junit/samples/SimpleTest.java	2002-03-30 23:37:40.0	egamma	1.4	1	3	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/samples/SimpleTest.java	2002-02-06 18:59:52.0	emeade	1.3	4	1	Added a main to SimpleTest, thanks Lynn Allan
+/cvsroot/junit/junit/junit/samples/SimpleTest.java	2001-05-21 21:50:16.0	egamma	1.2	1	1	changes for 3.7
+/cvsroot/junit/junit/junit/samples/SimpleTest.java	2000-12-03 15:36:22.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/samples/SimpleTest.java	2000-12-03 15:36:22.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/samples/VectorTest.java	2004-09-09 23:53:54.0	kbeck	1.5	4	1	Fixed two warnings
+/cvsroot/junit/junit/junit/samples/VectorTest.java	2002-08-23 07:05:56.0	egamma	1.4	1	2	removed unused imports, variables
+/cvsroot/junit/junit/junit/samples/VectorTest.java	2002-03-30 23:37:41.0	egamma	1.3	0	3	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/samples/VectorTest.java	2001-05-21 21:50:16.0	egamma	1.2	9	9	changes for 3.7
+/cvsroot/junit/junit/junit/samples/VectorTest.java	2000-12-03 15:36:22.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/samples/VectorTest.java	2000-12-03 15:36:22.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/samples/money/IMoney.java	2002-04-27 01:54:30.0	kbeck	1.4	1	1	Money for public consumption.
+/cvsroot/junit/junit/junit/samples/money/IMoney.java	2002-03-30 23:37:40.0	egamma	1.3	3	3	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/samples/money/IMoney.java	2001-10-02 21:38:22.0	kbeck	1.2	4	0	Cleaning up MoneyBag construction
+/cvsroot/junit/junit/junit/samples/money/IMoney.java	2000-12-03 15:36:22.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/samples/money/IMoney.java	2000-12-03 15:36:22.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/samples/money/Money.java	2002-04-27 01:54:30.0	kbeck	1.3	1	1	Money for public consumption.
+/cvsroot/junit/junit/junit/samples/money/Money.java	2001-10-02 21:38:22.0	kbeck	1.2	4	1	Cleaning up MoneyBag construction
+/cvsroot/junit/junit/junit/samples/money/Money.java	2000-12-03 15:36:22.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/samples/money/Money.java	2000-12-03 15:36:22.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/samples/money/MoneyBag.java	2004-09-09 23:53:57.0	kbeck	1.5	2	1	Fixed two warnings
+/cvsroot/junit/junit/junit/samples/money/MoneyBag.java	2002-09-03 00:22:45.0	egamma	1.4	1	1	removed some unused methods
+/cvsroot/junit/junit/junit/samples/money/MoneyBag.java	2001-10-02 21:38:22.0	kbeck	1.3	19	28	Cleaning up MoneyBag construction
+/cvsroot/junit/junit/junit/samples/money/MoneyBag.java	2001-01-10 00:39:50.0	egamma	1.2	7	5	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/samples/money/MoneyBag.java	2000-12-03 15:36:23.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/samples/money/MoneyBag.java	2000-12-03 15:36:23.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/samples/money/MoneyTest.java	2004-09-09 23:53:57.0	kbeck	1.7	1	1	Fixed two warnings
+/cvsroot/junit/junit/junit/samples/money/MoneyTest.java	2002-03-30 23:37:40.0	egamma	1.6	0	3	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/samples/money/MoneyTest.java	2002-03-29 17:10:13.0	kbeck	1.5	4	0	Kent &amp; Erich patch swallowing in Merlin
+/cvsroot/junit/junit/junit/samples/money/MoneyTest.java	2001-10-02 21:38:22.0	kbeck	1.4	19	34	Cleaning up MoneyBag construction
+/cvsroot/junit/junit/junit/samples/money/MoneyTest.java	2001-05-21 21:50:16.0	egamma	1.3	11	11	changes for 3.7
+/cvsroot/junit/junit/junit/samples/money/MoneyTest.java	2001-01-10 00:39:50.0	egamma	1.2	5	1	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/samples/money/MoneyTest.java	2000-12-03 15:36:24.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/samples/money/MoneyTest.java	2000-12-03 15:36:24.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/swingui/AboutDialog.java	2004-09-09 23:53:54.0	kbeck	1.5	16	4	Fixed two warnings
+/cvsroot/junit/junit/junit/swingui/AboutDialog.java	2002-09-01 00:29:52.0	egamma	1.4	6	1	fix for 602948 Swing UI: NoSuchMethodError on JDK 1.3
+/cvsroot/junit/junit/junit/swingui/AboutDialog.java	2002-03-30 23:37:40.0	egamma	1.3	5	5	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/AboutDialog.java	2001-01-10 00:39:50.0	egamma	1.2	9	13	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/AboutDialog.java	2000-12-03 15:36:24.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/swingui/AboutDialog.java	2000-12-03 15:36:24.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/swingui/CounterPanel.java	2004-09-11 15:49:07.0	egamma	1.10	2	2	removed some warnings
+/cvsroot/junit/junit/junit/swingui/CounterPanel.java	2004-09-09 23:53:54.0	kbeck	1.9	11	3	Fixed two warnings
+/cvsroot/junit/junit/junit/swingui/CounterPanel.java	2002-09-01 00:28:57.0	egamma	1.8	0	4	removed unused parameters/fields as detected by PMD
+/cvsroot/junit/junit/junit/swingui/CounterPanel.java	2002-08-23 20:43:51.0	egamma	1.7	3	0	3.8 clean-up
+/cvsroot/junit/junit/junit/swingui/CounterPanel.java	2002-04-01 00:51:49.0	emeade	1.6	16	17	Remove extra import.
+/cvsroot/junit/junit/junit/swingui/CounterPanel.java	2002-03-31 23:18:42.0	egamma	1.5	50	9	fixed 537502
+/cvsroot/junit/junit/junit/swingui/CounterPanel.java	2002-03-30 23:37:40.0	egamma	1.4	13	11	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/CounterPanel.java	2002-03-29 17:10:13.0	kbeck	1.3	2	2	Kent &amp; Erich patch swallowing in Merlin
+/cvsroot/junit/junit/junit/swingui/CounterPanel.java	2001-05-21 21:50:16.0	egamma	1.2	7	1	changes for 3.7
+/cvsroot/junit/junit/junit/swingui/CounterPanel.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/DefaultFailureDetailView.java	2004-10-24 00:07:48.0	kbeck	1.8	1	1	[ 774304 ] Fix for JUnit 3.8.1 does not compile with JDK 1.1
+/cvsroot/junit/junit/junit/swingui/DefaultFailureDetailView.java	2004-09-09 23:53:54.0	kbeck	1.7	11	4	Fixed two warnings
+/cvsroot/junit/junit/junit/swingui/DefaultFailureDetailView.java	2002-06-22 02:36:49.0	egamma	1.6	0	1	[ 556019 ] enables FailureRunView hor scrollbar
+/cvsroot/junit/junit/junit/swingui/DefaultFailureDetailView.java	2002-03-31 23:18:42.0	egamma	1.5	2	2	fixed 537502
+/cvsroot/junit/junit/junit/swingui/DefaultFailureDetailView.java	2002-03-30 23:37:40.0	egamma	1.4	70	15	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/DefaultFailureDetailView.java	2001-11-12 01:50:04.0	kbeck	1.3	1	1	I left tests broken, duh... Also, beginning to make TestFailure a narrower interface.
+/cvsroot/junit/junit/junit/swingui/DefaultFailureDetailView.java	2001-04-01 23:22:16.0	egamma	1.2	1	10	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/swingui/DefaultFailureDetailView.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/FailureRunView.java	2004-09-11 15:49:07.0	egamma	1.7	2	1	removed some warnings
+/cvsroot/junit/junit/junit/swingui/FailureRunView.java	2004-09-09 23:53:54.0	kbeck	1.6	15	4	Fixed two warnings
+/cvsroot/junit/junit/junit/swingui/FailureRunView.java	2002-06-22 02:36:49.0	egamma	1.5	0	6	[ 556019 ] enables FailureRunView hor scrollbar
+/cvsroot/junit/junit/junit/swingui/FailureRunView.java	2002-03-31 23:18:42.0	egamma	1.4	1	1	fixed 537502
+/cvsroot/junit/junit/junit/swingui/FailureRunView.java	2002-03-30 23:37:40.0	egamma	1.3	13	13	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/FailureRunView.java	2001-11-12 01:50:04.0	kbeck	1.2	2	2	I left tests broken, duh... Also, beginning to make TestFailure a narrower interface.
+/cvsroot/junit/junit/junit/swingui/FailureRunView.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/MacProgressBar.java	2004-02-11 05:12:58.0	emeade	1.1	0	0	Fixes bug reported on Support Request 615265swingui progress bar color on Mac OS X
+/cvsroot/junit/junit/junit/swingui/ProgressBar.java	2004-02-11 05:12:58.0	emeade	1.4	8	4	Fixes bug reported on Support Request 615265swingui progress bar color on Mac OS X
+/cvsroot/junit/junit/junit/swingui/ProgressBar.java	2002-03-30 23:37:40.0	egamma	1.3	14	54	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/ProgressBar.java	2001-01-10 00:39:50.0	egamma	1.2	7	4	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/ProgressBar.java	2000-12-03 15:36:24.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/swingui/ProgressBar.java	2000-12-03 15:36:24.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/swingui/StatusLine.java	2004-09-09 23:53:54.0	kbeck	1.4	5	2	Fixed two warnings
+/cvsroot/junit/junit/junit/swingui/StatusLine.java	2002-03-30 23:37:40.0	egamma	1.3	2	1	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/StatusLine.java	2001-04-01 23:22:16.0	egamma	1.2	2	0	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/swingui/StatusLine.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/Attic/TestBrowser.java	2001-01-10 00:39:50.0	egamma	1.3	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/Attic/TestBrowser.java	2000-12-10 00:29:51.0	egamma	1.2	19	10	handle missing icons in junit swing test runner more gracefully
+/cvsroot/junit/junit/junit/swingui/Attic/TestBrowser.java	2000-12-03 15:36:25.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/swingui/Attic/TestBrowser.java	2000-12-03 15:36:25.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/swingui/TestHierarchyRunView.java	2004-09-09 23:53:54.0	kbeck	1.4	8	3	Fixed two warnings
+/cvsroot/junit/junit/junit/swingui/TestHierarchyRunView.java	2002-03-31 23:18:42.0	egamma	1.3	1	1	fixed 537502
+/cvsroot/junit/junit/junit/swingui/TestHierarchyRunView.java	2002-03-30 23:37:40.0	egamma	1.2	2	3	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/TestHierarchyRunView.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/TestRunContext.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/TestRunView.java	2004-09-09 23:53:54.0	kbeck	1.3	3	1	Fixed two warnings
+/cvsroot/junit/junit/junit/swingui/TestRunView.java	2002-03-30 23:37:40.0	egamma	1.2	1	2	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/TestRunView.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2004-10-24 09:37:06.0	egamma	1.20	2	1	removed 1.5 warnings related to varargs
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2004-09-11 15:49:07.0	egamma	1.19	2	1	removed some warnings
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2004-09-09 23:53:54.0	kbeck	1.18	57	8	Fixed two warnings
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2004-02-11 05:12:58.0	emeade	1.17	26	2	Fixes bug reported on Support Request 615265swingui progress bar color on Mac OS X
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2002-09-03 00:22:44.0	egamma	1.16	2	12	removed some unused methods
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2002-09-01 00:28:57.0	egamma	1.15	3	5	removed unused parameters/fields as detected by PMD
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2002-08-23 07:05:56.0	egamma	1.14	0	1	removed unused imports, variables
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2002-04-08 20:54:11.0	kbeck	1.13	0	8	Deleted deprecated methods and classes, this time really
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2002-03-31 23:18:42.0	egamma	1.12	1	1	fixed 537502
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2002-03-30 23:37:40.0	egamma	1.11	27	30	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2001-11-02 02:38:21.0	emeade	1.10	103	103	Make rerunTest identical in awtui.TestRunner and swingui.TestRunner.
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2001-10-29 20:47:45.0	emeade	1.9	1	3	Fix for bug #471102, replaced GridBagConstrants.HORIZONTAL to NONE.
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2001-10-21 04:30:18.0	kbeck	1.8	15	22	Preparing for TestRunListener. Pushed TestListener implementation up to BaseTestRunner.
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2001-05-21 21:50:16.0	egamma	1.7	10	22	changes for 3.7
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2001-04-08 02:18:42.0	egamma	1.6	11	7	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2001-04-01 23:22:16.0	egamma	1.5	58	32	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2001-01-17 01:06:23.0	egamma	1.4	24	12	added missing invokeLaters in the swing test runner.changed the default test collector to the simple one.
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2001-01-10 00:39:50.0	egamma	1.3	270	331	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2000-12-10 00:29:51.0	egamma	1.2	25	11	handle missing icons in junit swing test runner more gracefully
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2000-12-03 15:36:28.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/swingui/TestRunner.java	2000-12-03 15:36:28.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/swingui/TestSelector.java	2004-10-24 09:37:06.0	egamma	1.5	1	1	removed 1.5 warnings related to varargs
+/cvsroot/junit/junit/junit/swingui/TestSelector.java	2004-09-09 23:53:54.0	kbeck	1.4	34	7	Fixed two warnings
+/cvsroot/junit/junit/junit/swingui/TestSelector.java	2002-09-01 00:29:52.0	egamma	1.3	12	1	fix for 602948 Swing UI: NoSuchMethodError on JDK 1.3
+/cvsroot/junit/junit/junit/swingui/TestSelector.java	2002-03-30 23:37:40.0	egamma	1.2	2	3	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/TestSelector.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/TestSuitePanel.java	2004-09-09 23:53:54.0	kbeck	1.3	17	4	Fixed two warnings
+/cvsroot/junit/junit/junit/swingui/TestSuitePanel.java	2002-03-30 23:37:40.0	egamma	1.2	2	3	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/TestSuitePanel.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/TestTreeModel.java	2004-09-11 15:49:07.0	egamma	1.7	1	1	removed some warnings
+/cvsroot/junit/junit/junit/swingui/TestTreeModel.java	2004-09-09 23:53:54.0	kbeck	1.6	10	4	Fixed two warnings
+/cvsroot/junit/junit/junit/swingui/TestTreeModel.java	2002-03-30 23:37:40.0	egamma	1.5	2	2	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/swingui/TestTreeModel.java	2001-05-21 21:50:16.0	egamma	1.4	4	4	changes for 3.7
+/cvsroot/junit/junit/junit/swingui/TestTreeModel.java	2001-04-01 23:22:16.0	egamma	1.3	6	0	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/swingui/TestTreeModel.java	2001-01-10 00:39:50.0	egamma	1.2	1	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/TestTreeModel.java	2000-12-03 15:36:28.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/swingui/TestTreeModel.java	2000-12-03 15:36:28.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/swingui/Attic/error.gif	2001-01-10 00:39:50.0	egamma	1.2	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/Attic/error.gif	2000-12-03 15:36:28.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/swingui/Attic/error.gif	2000-12-03 15:36:28.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/swingui/Attic/failure.gif	2001-01-10 00:39:50.0	egamma	1.2	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/Attic/failure.gif	2000-12-03 15:36:28.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/swingui/Attic/failure.gif	2000-12-03 15:36:28.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/swingui/Attic/ok.gif	2001-01-10 00:39:50.0	egamma	1.2	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/swingui/Attic/ok.gif	2000-12-03 15:36:28.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/swingui/Attic/ok.gif	2000-12-03 15:36:28.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/ActiveTestTest.java	2001-11-10 15:39:34.0	kbeck	1.3	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/ActiveTestTest.java	2001-01-10 00:39:50.0	egamma	1.2	1	1	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/tests/Attic/ActiveTestTest.java	2000-12-03 15:36:29.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/ActiveTestTest.java	2000-12-03 15:36:29.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/AllTests.java	2004-09-09 23:53:57.0	kbeck	1.7	2	1	Fixed two warnings
+/cvsroot/junit/junit/junit/tests/AllTests.java	2002-08-23 07:05:56.0	egamma	1.6	0	1	removed unused imports, variables
+/cvsroot/junit/junit/junit/tests/AllTests.java	2001-11-10 15:39:34.0	kbeck	1.5	5	24	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/AllTests.java	2001-10-19 23:48:32.0	kbeck	1.4	2	1	Added assertFalse.
+/cvsroot/junit/junit/junit/tests/AllTests.java	2001-01-11 00:23:52.0	egamma	1.3	12	3	fixes for JDK 1.1.7 compatibility
+/cvsroot/junit/junit/junit/tests/AllTests.java	2001-01-10 00:39:50.0	egamma	1.2	13	11	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/tests/AllTests.java	2000-12-03 15:36:29.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/AllTests.java	2000-12-03 15:36:29.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/AssertTest.java	2001-11-10 15:39:34.0	kbeck	1.7	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/AssertTest.java	2001-10-21 18:18:54.0	kbeck	1.6	25	0	Added assertNotSame, thanks to Vladimir Bossicard
+/cvsroot/junit/junit/junit/tests/Attic/AssertTest.java	2001-10-19 23:48:32.0	kbeck	1.5	10	0	Added assertFalse.
+/cvsroot/junit/junit/junit/tests/Attic/AssertTest.java	2001-04-08 02:18:42.0	egamma	1.4	9	0	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/junit/tests/Attic/AssertTest.java	2001-04-01 23:22:16.0	egamma	1.3	20	3	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/tests/Attic/AssertTest.java	2001-01-10 00:39:50.0	egamma	1.2	46	46	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/tests/Attic/AssertTest.java	2000-12-03 15:36:29.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/AssertTest.java	2000-12-03 15:36:29.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/ClassLoaderTest.java	2001-11-10 15:39:34.0	kbeck	1.3	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/ClassLoaderTest.java	2001-05-21 21:50:16.0	egamma	1.2	3	3	changes for 3.7
+/cvsroot/junit/junit/junit/tests/Attic/ClassLoaderTest.java	2000-12-03 15:36:29.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/ClassLoaderTest.java	2000-12-03 15:36:29.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/ExceptionTestCaseTest.java	2001-11-10 15:39:34.0	kbeck	1.4	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/ExceptionTestCaseTest.java	2001-05-21 21:50:16.0	egamma	1.3	2	2	changes for 3.7
+/cvsroot/junit/junit/junit/tests/Attic/ExceptionTestCaseTest.java	2001-04-08 02:18:42.0	egamma	1.2	3	3	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/junit/tests/Attic/ExceptionTestCaseTest.java	2000-12-03 15:36:29.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/ExceptionTestCaseTest.java	2000-12-03 15:36:29.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/ExtensionTest.java	2001-11-10 15:39:34.0	kbeck	1.5	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/ExtensionTest.java	2001-10-24 06:21:17.0	emeade	1.4	2	5	Backed out getDisplayName
+/cvsroot/junit/junit/junit/tests/Attic/ExtensionTest.java	2001-10-22 23:12:02.0	kbeck	1.3	3	0	Experimental getDisplayName
+/cvsroot/junit/junit/junit/tests/Attic/ExtensionTest.java	2001-05-21 21:50:16.0	egamma	1.2	4	4	changes for 3.7
+/cvsroot/junit/junit/junit/tests/Attic/ExtensionTest.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/ExtensionTest.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/Failure.java	2001-11-10 15:39:34.0	kbeck	1.2	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/Failure.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/Failure.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/InheritedTestCase.java	2001-11-10 15:39:34.0	kbeck	1.2	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/InheritedTestCase.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/InheritedTestCase.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/LoadedFromJar.java	2001-11-10 15:39:34.0	kbeck	1.3	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/LoadedFromJar.java	2001-05-21 21:50:16.0	egamma	1.2	1	1	changes for 3.7
+/cvsroot/junit/junit/junit/tests/Attic/LoadedFromJar.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/LoadedFromJar.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/NoTestCaseClass.java	2001-11-10 15:39:34.0	kbeck	1.2	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/NoTestCaseClass.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/NoTestCaseClass.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/NoTestCases.java	2001-11-10 15:39:34.0	kbeck	1.2	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/NoTestCases.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/NoTestCases.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/NotPublicTestCase.java	2001-11-10 15:39:34.0	kbeck	1.2	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/NotPublicTestCase.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/NotPublicTestCase.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/NotVoidTestCase.java	2001-11-10 15:39:34.0	kbeck	1.2	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/NotVoidTestCase.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/NotVoidTestCase.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/OneTestCase.java	2001-11-10 15:39:34.0	kbeck	1.2	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/OneTestCase.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/OneTestCase.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/OverrideTestCase.java	2001-11-10 15:39:34.0	kbeck	1.2	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/OverrideTestCase.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/OverrideTestCase.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/RepeatedTestTest.java	2001-11-10 15:39:34.0	kbeck	1.2	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/RepeatedTestTest.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/tests/Attic/SorterTest.java	2001-11-10 15:39:34.0	kbeck	1.3	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/SorterTest.java	2001-04-08 02:18:42.0	egamma	1.2	1	1	Update documentation.Added a SplitPane to the JUnit TestRunner.
+/cvsroot/junit/junit/junit/tests/Attic/SorterTest.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/tests/Attic/StackFilterTest.java	2001-11-10 15:39:34.0	kbeck	1.3	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/StackFilterTest.java	2001-01-11 00:23:52.0	egamma	1.2	2	2	fixes for JDK 1.1.7 compatibility
+/cvsroot/junit/junit/junit/tests/Attic/StackFilterTest.java	2001-01-10 00:39:50.0	egamma	1.1	0	0	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/tests/Attic/Success.java	2001-11-10 15:39:34.0	kbeck	1.2	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/Success.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/Success.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/SuiteTest.java	2001-11-10 15:39:34.0	kbeck	1.6	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/SuiteTest.java	2001-10-24 06:21:17.0	emeade	1.5	3	8	Backed out getDisplayName
+/cvsroot/junit/junit/junit/tests/Attic/SuiteTest.java	2001-10-22 23:12:02.0	kbeck	1.4	7	1	Experimental getDisplayName
+/cvsroot/junit/junit/junit/tests/Attic/SuiteTest.java	2001-05-21 21:50:16.0	egamma	1.3	13	13	changes for 3.7
+/cvsroot/junit/junit/junit/tests/Attic/SuiteTest.java	2000-12-11 23:20:03.0	egamma	1.2	7	0	*** empty log message ***
+/cvsroot/junit/junit/junit/tests/Attic/SuiteTest.java	2000-12-03 15:36:30.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/SuiteTest.java	2000-12-03 15:36:30.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/TestCaseClassLoaderTest.java	2001-11-10 15:39:34.0	kbeck	1.3	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/TestCaseClassLoaderTest.java	2001-10-21 20:44:51.0	kbeck	1.2	1	0	Enhanced missing test.jar error message
+/cvsroot/junit/junit/junit/tests/Attic/TestCaseClassLoaderTest.java	2001-01-11 00:23:52.0	egamma	1.1	0	0	fixes for JDK 1.1.7 compatibility
+/cvsroot/junit/junit/junit/tests/Attic/TestCaseTest.java	2001-11-10 15:39:34.0	kbeck	1.5	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/TestCaseTest.java	2001-10-24 06:21:17.0	emeade	1.4	3	6	Backed out getDisplayName
+/cvsroot/junit/junit/junit/tests/Attic/TestCaseTest.java	2001-10-22 23:12:02.0	kbeck	1.3	3	0	Experimental getDisplayName
+/cvsroot/junit/junit/junit/tests/Attic/TestCaseTest.java	2001-05-21 21:50:16.0	egamma	1.2	13	13	changes for 3.7
+/cvsroot/junit/junit/junit/tests/Attic/TestCaseTest.java	2000-12-03 15:36:31.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/TestCaseTest.java	2000-12-03 15:36:31.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/TestImplementorTest.java	2001-11-10 15:39:34.0	kbeck	1.4	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/TestImplementorTest.java	2001-11-03 15:55:08.0	emeade	1.3	6	10	Back out getDisplayName.
+/cvsroot/junit/junit/junit/tests/Attic/TestImplementorTest.java	2001-10-22 23:12:02.0	kbeck	1.2	4	0	Experimental getDisplayName
+/cvsroot/junit/junit/junit/tests/Attic/TestImplementorTest.java	2001-01-11 00:23:52.0	egamma	1.1	0	0	fixes for JDK 1.1.7 compatibility
+/cvsroot/junit/junit/junit/tests/Attic/TestListenerTest.java	2001-11-10 15:39:34.0	kbeck	1.3	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/TestListenerTest.java	2001-01-10 00:39:50.0	egamma	1.2	1	1	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/tests/Attic/TestListenerTest.java	2000-12-03 15:36:31.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/TestListenerTest.java	2000-12-03 15:36:31.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/TestTestCaseClassLoader.java	2001-01-11 00:23:52.0	egamma	1.2	0	0	fixes for JDK 1.1.7 compatibility
+/cvsroot/junit/junit/junit/tests/Attic/TestTestCaseClassLoader.java	2000-12-03 15:36:32.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/TestTestCaseClassLoader.java	2000-12-03 15:36:32.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/TextRunnerTest.java	2001-11-10 15:39:34.0	kbeck	1.6	0	0	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/Attic/TextRunnerTest.java	2001-10-21 04:30:18.0	kbeck	1.5	4	1	Preparing for TestRunListener. Pushed TestListener implementation up to BaseTestRunner.
+/cvsroot/junit/junit/junit/tests/Attic/TextRunnerTest.java	2001-10-20 01:48:02.0	kbeck	1.4	1	0	Enhanced TextRunnerTest to catch missing return values.
+/cvsroot/junit/junit/junit/tests/Attic/TextRunnerTest.java	2001-05-21 21:50:16.0	egamma	1.3	1	1	changes for 3.7
+/cvsroot/junit/junit/junit/tests/Attic/TextRunnerTest.java	2001-01-10 00:39:50.0	egamma	1.2	7	7	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/tests/Attic/TextRunnerTest.java	2000-12-03 15:36:32.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/TextRunnerTest.java	2000-12-03 15:36:32.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/WasRun.java	2004-09-09 23:53:57.0	kbeck	1.4	1	1	Fixed two warnings
+/cvsroot/junit/junit/junit/tests/WasRun.java	2002-03-30 23:37:41.0	egamma	1.3	0	3	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/tests/WasRun.java	2001-11-10 15:39:34.0	kbeck	1.2	3	3	Still trying to release the new test packages
+/cvsroot/junit/junit/junit/tests/WasRun.java	2000-12-03 15:36:32.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/WasRun.java	2000-12-03 15:36:32.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/Attic/test.jar	2001-07-08 21:42:20.0	egamma	1.2	0	0	removed test.jar
+/cvsroot/junit/junit/junit/tests/Attic/test.jar	2000-12-03 15:36:32.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/tests/Attic/test.jar	2000-12-03 15:36:32.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/tests/framework/ComparisonCompactorTest.java	2004-10-24 08:41:48.0	kbeck	1.1	0	0	[ 609972 ] &quot;...&quot; in ComparisonFailure
+/cvsroot/junit/junit/junit/tests/framework/ComparisonFailureTest.java	2004-10-24 08:41:48.0	kbeck	1.2	13	52	[ 609972 ] &quot;...&quot; in ComparisonFailure
+/cvsroot/junit/junit/junit/tests/framework/ComparisonFailureTest.java	2002-09-01 17:29:53.0	kbeck	1.1	0	0	Oops. Assertion tests can&apos;t use the standard format for exception tests because the exception to be thrown is AssertionFailedError and the exception that signals failure is also AssertionFailedError.
+/cvsroot/junit/junit/junit/tests/framework/DoublePrecisionAssertTest.java	2004-10-23 03:06:41.0	kbeck	1.3	2	7	[ 609819 ] NaN&apos;s in assertEquals
+/cvsroot/junit/junit/junit/tests/framework/DoublePrecisionAssertTest.java	2002-09-01 17:31:53.0	kbeck	1.2	10	5	Oops. Assertion tests can&apos;t use the standard format for exception tests because the exception to be thrown is AssertionFailedError and the exception that signals failure is also AssertionFailedError.
+/cvsroot/junit/junit/junit/tests/framework/DoublePrecisionAssertTest.java	2002-09-01 17:29:53.0	kbeck	1.1	0	0	Oops. Assertion tests can&apos;t use the standard format for exception tests because the exception to be thrown is AssertionFailedError and the exception that signals failure is also AssertionFailedError.
+/cvsroot/junit/junit/junit/tests/framework/NoArgTestCaseTest.java	2002-03-29 17:10:13.0	kbeck	1.1	0	0	Kent &amp; Erich patch swallowing in Merlin
+/cvsroot/junit/junit/junit/tests/runner/BaseTestRunnerTest.java	2004-09-03 18:27:28.0	egamma	1.5	1	1	incorporate find bugs findings
+/cvsroot/junit/junit/junit/tests/runner/BaseTestRunnerTest.java	2002-08-31 18:44:09.0	egamma	1.4	0	15	backed out calling setContextClassLoader on the test thread
+/cvsroot/junit/junit/junit/tests/runner/BaseTestRunnerTest.java	2002-08-23 20:43:51.0	egamma	1.3	15	0	3.8 clean-up
+/cvsroot/junit/junit/junit/tests/runner/BaseTestRunnerTest.java	2002-03-30 23:37:41.0	egamma	1.2	0	4	finished support for no-arg constructor.tweaks to the Swing UI
+/cvsroot/junit/junit/junit/tests/runner/BaseTestRunnerTest.java	2002-03-29 17:10:13.0	kbeck	1.1	0	0	Kent &amp; Erich patch swallowing in Merlin
+/cvsroot/junit/junit/junit/tests/runner/TextFeedbackTest.java	2004-10-23 07:28:40.0	kbeck	1.10	1	1	[ 996352 ] Remove silly code
+/cvsroot/junit/junit/junit/tests/runner/TextFeedbackTest.java	2004-09-03 18:27:28.0	egamma	1.9	5	5	incorporate find bugs findings
+/cvsroot/junit/junit/junit/tests/runner/TextFeedbackTest.java	2002-08-23 07:05:56.0	egamma	1.8	0	1	removed unused imports, variables
+/cvsroot/junit/junit/junit/tests/runner/TextFeedbackTest.java	2002-06-25 10:08:18.0	egamma	1.7	0	45	moved the the comparison failure tests to the AssertTests
+/cvsroot/junit/junit/junit/tests/runner/TextFeedbackTest.java	2002-06-24 21:13:20.0	kbeck	1.6	1	1	Fixed timing problem in TextFeedbackTest.testError()
+/cvsroot/junit/junit/junit/tests/runner/TextFeedbackTest.java	2002-06-22 02:28:03.0	egamma	1.5	47	1	added support for reporting only the deltas for failed assert equals
+/cvsroot/junit/junit/junit/tests/runner/TextFeedbackTest.java	2002-04-13 00:49:46.0	kbeck	1.4	1	2	Added textui.TestRunner(ResultPrinter)
+/cvsroot/junit/junit/junit/tests/runner/TextFeedbackTest.java	2002-04-12 23:36:14.0	kbeck	1.3	40	9	Cleaned up ResultPrinter
+/cvsroot/junit/junit/junit/tests/runner/TextFeedbackTest.java	2002-04-09 21:09:17.0	kbeck	1.2	42	12	Enough tests now to begin the refactoring
+/cvsroot/junit/junit/junit/tests/runner/TextFeedbackTest.java	2002-04-09 20:28:02.0	kbeck	1.1	0	0	Began writing tests for the textui.TestRunner in preparation for refactoring
+/cvsroot/junit/junit/junit/tests/runner/TextRunnerSingleMethodTest.java	2004-11-17 23:46:22.0	egamma	1.3	4	4	fixed generated argument names
+/cvsroot/junit/junit/junit/tests/runner/TextRunnerSingleMethodTest.java	2004-11-17 23:07:06.0	egamma	1.2	43	1	added NullResultPrinter to suppress the output
+/cvsroot/junit/junit/junit/tests/runner/TextRunnerSingleMethodTest.java	2004-10-23 08:47:22.0	kbeck	1.1	0	0	[ 908467 ] Run one test method for junit
+/cvsroot/junit/junit/junit/textui/ResultPrinter.java	2002-08-23 07:05:56.0	egamma	1.6	0	1	removed unused imports, variables
+/cvsroot/junit/junit/junit/textui/ResultPrinter.java	2002-06-22 02:28:03.0	egamma	1.5	34	16	added support for reporting only the deltas for failed assert equals
+/cvsroot/junit/junit/junit/textui/ResultPrinter.java	2002-04-27 01:59:03.0	kbeck	1.4	15	5	Method renaming for easier digestion.
+/cvsroot/junit/junit/junit/textui/ResultPrinter.java	2002-04-12 23:36:14.0	kbeck	1.3	45	55	Cleaned up ResultPrinter
+/cvsroot/junit/junit/junit/textui/ResultPrinter.java	2002-04-12 20:39:30.0	kbeck	1.2	98	1	Further along the road to simplifying textui.TestRunner
+/cvsroot/junit/junit/junit/textui/ResultPrinter.java	2002-04-10 13:40:09.0	kbeck	1.1	0	0	Why didn&apos;t this get added automatically, oh Eclipse gods?
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2004-11-13 01:33:19.0	egamma	1.22	1	1	fixed typo
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2004-10-24 08:41:48.0	kbeck	1.21	0	1	[ 609972 ] &quot;...&quot; in ComparisonFailure
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2004-10-23 08:47:22.0	kbeck	1.20	27	13	[ 908467 ] Run one test method for junit
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2004-09-09 23:53:57.0	kbeck	1.19	7	2	Fixed two warnings
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2002-06-22 02:28:03.0	egamma	1.18	1	7	added support for reporting only the deltas for failed assert equals
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2002-04-13 00:49:46.0	kbeck	1.17	9	3	Added textui.TestRunner(ResultPrinter)
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2002-04-12 23:36:14.0	kbeck	1.16	5	6	Cleaned up ResultPrinter
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2002-04-12 20:39:30.0	kbeck	1.15	8	74	Further along the road to simplifying textui.TestRunner
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2002-04-10 13:29:11.0	kbeck	1.14	36	36	The refactoring begins.
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2002-04-09 21:09:17.0	kbeck	1.13	1	1	Enough tests now to begin the refactoring
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2002-04-09 20:28:02.0	kbeck	1.12	7	3	Began writing tests for the textui.TestRunner in preparation for refactoring
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2002-04-08 20:54:11.0	kbeck	1.11	0	6	Deleted deprecated methods and classes, this time really
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2002-03-29 17:10:13.0	kbeck	1.10	34	27	Kent &amp; Erich patch swallowing in Merlin
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2001-11-12 01:50:05.0	kbeck	1.9	2	3	I left tests broken, duh... Also, beginning to make TestFailure a narrower interface.
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2001-10-21 04:30:18.0	kbeck	1.8	23	20	Preparing for TestRunListener. Pushed TestListener implementation up to BaseTestRunner.
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2001-05-21 21:50:16.0	egamma	1.7	8	9	changes for 3.7
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2001-04-01 23:22:16.0	egamma	1.6	2	2	Add a checkbox to UI test runner so that user can switchbetween the standard and loading testcase class loader.[ #229753 ] assertEquals on NaN and Infinity does not work correctly[ #229287 ] Class Name too long &quot;SimpleClassPathTestCollector&quot;[ #229609 ] Stack Filtering missing in textui.TesRunner[ #229753 ] assertEquals on NaN and Infinity does not work correctly.[ #229870 ] Clicking on ... after tests failed gives NPE[ #229974 ] Incorrect icon shown for first element in Swing GUI[ #230581 ] swingui.TestTreeModel: results of decorated testcases...[ #230971 ] Make junit.extensions.TestDecorator.getTest() public[ #231569 ] DocBug: JUnit Test Infected: Programmers Love Writing Tests[ #232645 ] BaseTestRunner.getTest loses exception information[ #233094 ] TestSuite masks exceptions[ #410967 ] No icon provided for first test[ #230745 ] ClassPathTestCollector sometimes lists classes in duplicate
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2001-01-17 01:06:23.0	egamma	1.5	2	0	added missing invokeLaters in the swing test runner.changed the default test collector to the simple one.
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2001-01-11 00:23:52.0	egamma	1.4	3	6	fixes for JDK 1.1.7 compatibility
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2001-01-10 00:39:50.0	egamma	1.3	18	11	JUnit 3.5 candidate
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2000-12-11 23:17:12.0	egamma	1.2	15	7	fixed resources
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2000-12-03 15:36:35.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/textui/TestRunner.java	2000-12-03 15:36:35.0	egamma	1.1.1.1	0	0	Initial Checkin
+/cvsroot/junit/junit/junit/ui/Attic/TestRunner.java	2002-04-08 20:40:59.0	kbeck	1.2	0	0	Deleted deprecated methods and classes
+/cvsroot/junit/junit/junit/ui/Attic/TestRunner.java	2000-12-03 15:36:35.0	egamma	1.1	0	0	branches:  1.1.1;Initial revision
+/cvsroot/junit/junit/junit/ui/Attic/TestRunner.java	2000-12-03 15:36:35.0	egamma	1.1.1.1	0	0	Initial Checkin
