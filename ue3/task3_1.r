@@ -47,5 +47,10 @@ plot(factor(junit$wday,labels=strtrim(levels(factor(junit$wday)),2)))
 boxplot(log(lines_add+1,2)~developer,junit)
 boxplot(log(lines_del+1,2)~developer,junit)
 
+#### task3-1 g) ####
 
+#### task3-1 h) ####
+plot(density(junit$lines_add,width=1))
+
+#width fasst werte zu einem tik zusammen
 
