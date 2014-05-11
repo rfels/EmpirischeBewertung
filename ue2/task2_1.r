@@ -45,8 +45,22 @@ get5MostActiveDevs("data/jikes.tsv")
 nrow(unique(origFile["developer"]))
 sort(table(origFile["developer"]))
 
+##I think this is wrong, at least the results are not that good or I'm doing it wrong^^
 table(unique(origFile[c("developer","file")])["developer"])
 table(unique(origFile[c("developer","file")])["developer"])/nrow(unique(origFile["file"]))
+
+##my approach
+# number of files existing
+fileNum = nlevels(origFile$filef)
+# colums to observe and to transform
+devsAndFiles = origFile[c("developer","file")]
+
+# transform that to this form (as table, list, matrix, data.frame or whatever- I HAVE NO IDEA HOW TO DO THIS) :
+#    dev1   dev2   dev3   ...   devn
+#    filey  filex  ...    ...   ...
+#    filex  filey  ...    ...   ...
+#    filey  filez  ...    ...   ...
+#    ...    ...    ...    ...   ...
 
 ####### task 2_1 d) #######
 myanalyze.cvsdata<-function(x){
