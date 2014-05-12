@@ -69,6 +69,13 @@ boxplot(log(lines_add+1,2)~developer,junit)
 boxplot(log(lines_del+1,2)~developer,junit)
 
 #### task3-1 g) ####
+substrRight <- function(x, n){
+  substr(x, nchar(x)-n+1, nchar(x))
+}
+
+boxplot(log(lines_add+1,2)~substrRight(file,4),junit)
+boxplot(log(lines_del+1,2)~substrRight(file,4),junit)
+
 
 #### task3-1 h) ####
 plot(density(junit$lines_add,width=1))
