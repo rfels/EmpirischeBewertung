@@ -29,7 +29,7 @@ junit$tstamp3 = as.numeric(junit$tstamp2)
 diff(junit$tstamp2[1:2])
 # diff in seconds
 diff(junit$tstamp3[1:2])
-<<<<<<< HEAD
+
 # diff in seconds, another solution
 difftime(junit$tstamp2[1],junit$tstamp2[2],units="secs")
 
@@ -48,12 +48,18 @@ summary(as.vector(table(junit$hour)))
 # -> in junit200: MIN=1  MAX=49 (14 h)
 
 # --->  Most contributors commiting sundays from 14 to 14.59 o'clock (UTC)
+
 #### task3-1 d) ####
 #plots
 plot(table(junit$wday))
 plot(table(junit$hour))
 
 #### task3-1 e) ####
+
+#plot factor
+plot(as.factor(table(junit$wday)))
+
+
 #labels
 plot(factor(junit$wday,labels=strtrim(levels(factor(junit$wday)),2)))
 #### task3-1 f) ####
@@ -68,4 +74,8 @@ boxplot(log(lines_del+1,2)~developer,junit)
 plot(density(junit$lines_add,width=1))
 
 #width fasst werte zu einem tik zusammen
+
+#### task3-1 i) ####
+# x axis: cumulative proportion of code changes, y axis: the top N contributors to code base
+
 
