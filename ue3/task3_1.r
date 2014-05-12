@@ -69,3 +69,5 @@ plot(density(junit$lines_add,width=1))
 
 #width fasst werte zu einem tik zusammen
 
+#### task3-1 i) ####
+#x-axis shows the top N contributors ordered by MRs
