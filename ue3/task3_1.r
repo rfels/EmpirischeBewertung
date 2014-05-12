@@ -76,7 +76,6 @@ substrRight <- function(x, n){
 boxplot(log(lines_add+1,2)~substrRight(file,4),junit)
 boxplot(log(lines_del+1,2)~substrRight(file,4),junit)
 
-
 #### task3-1 h) ####
 plot(density(junit$lines_add,width=1))
 
@@ -85,5 +84,19 @@ plot(density(junit$lines_add,width=1))
 #### task3-1 i) ####
 # x axis: cumulative proportion of code changes, y axis: the top N contributors to code base
 byMRPlot <- cumsum(sort(table(junit$developer),decreasing=T))/(sum(table(junit$developer)))
-plot(byMRPlot,type="l")
+mrplot <- data.frame(names(byMRPlot))
+mrplot$x <- byMRPlot
+names(mrplot) <- c("Developer", "MR")
 
+lines_add<- data.frame(aggregate(junit$lines_add, by=list(Developer=junit$developer), FUN=sum))
+lines_add$x <-lines_add$x/sum(junit$lines_add)
+lines_del<- data.frame(aggregate(junit$lines_del, by=list(Developer=junit$developer), FUN=sum))
+lines_del$x <-lines_del$x/sum(junit$lines_del)
+names(lines_add)<-c("Developer","lines added")
+names(lines_del)<-c("Developer","lines deleted")
+
+mrplot <- merge(mrplot,lines_add,by="Developer")
+mrplot <- merge(mrplot,lines_del,by="Developer")
+
+#
+plot(byMRPlot,type="l",xlab="Number of individuals",ylab="")
