@@ -71,3 +71,9 @@ plot(density(junit$lines_add,width=1))
 
 #### task3-1 i) ####
 #x-axis shows the top N contributors ordered by MRs
+byMRPlot <- cumsum(sort(table(junit$developer),decreasing=T))/(sum(table(junit$developer)))
+plot(byMRPlot,type="l")
+
+
+
+
