@@ -78,4 +78,22 @@ plot(density(junit$lines_add,width=1))
 #### task3-1 i) ####
 # x axis: cumulative proportion of code changes, y axis: the top N contributors to code base
 
+# most active devs sorted
+getMostActiveDevs = function (cvsFile) sort(table(myread.cvsdata(cvsFile)$developer),decreasing=T)
+# amount of devs
+getDevAmount = function (cvsFile) length(levels(myread.cvsdata(cvsFile) $developerf))
 
+# amount of MRs
+getMRAmount = function (cvsFile) length(myread.cvsdata(cvsFile))
+
+# required table for MRs (TopDevs | comulative #MR in percent)
+getMRPerDevAmount = function (cvs) {
+			result = data.frame(TopDevs=1:getDevAmount(cvs))
+			cumSumPercentage = cumsum((as.vector(getMostActiveDevs(cvs)) / getMRAmount(cvs)) / 100)
+			result$cummulativePercentage= cumSumPercentage
+			return(result)
+}
+
+
+plot(getMRPerDevAmount("data/junit200.tsv"))
+lines(stats::lowess(getMRPerDevAmount("data/junit200.tsv")))
