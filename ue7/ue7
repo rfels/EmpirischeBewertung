@@ -1,0 +1,84 @@
+#### Übung 7: Empirische Bewertung - Abgabe: Christoph Krüger, Robert Fels ####
+
+#### task7-1 ####
+
+Quelle: 
+
+"A Controlled Experiment to Evaluate Maintainability of Object-Oriented Software" by Sallie M. Henry and Matthew Humphrey
+
+
+1. Was a hypothesis or predicted outcome of the experiment clearly stated in the
+introduction?
+Ja:
+Die Hypothese ist, dass Software, die mit Objekt-Orientierten Sprachen geschrieben sind, einfacher wartbar ist, als Software, die mit prozeduralen Sprachen geschrieben wurden. Wobei einfacher hier bedeutet, dass man weniger Zeit zur Wartung braucht oder weniger Änderungen an dem Code durchführen muss. 
+
+2. Was the research a true experiment, a quasi experiment or an uncontrolled trial?
+Es war ein kontrolliertes Experiment, wie der Titel des Papers schon sagt.
+
+3. What information is given about the independent and dependent variables
+manipulated or measured in the study? What additional information would you
+like?
+Abhängige Variablen:
+* Zeit für Wartungsaufgabe
+* Anzahl der Änderungen im Code
+* Anzahl der Module, Sektionen die geändert wurden
+* Dateigrößen
+* konzeptuelle Wahrnehmung von Programmiern um Wartungsaufgabe durchzuführen
+* Anzahl der Fehler die während der Wartung auftreten (Compilefehler
+* Eigenschaften von Studenten (GPA, Programmiersprachenerfahrung in C, Pascal, obj. C, Smalltalk, Erfahrung in Testen und Integrieren von Code, Acadamic level, #Kurse)
+* weitere siehe Paper
+
+Unabhängige Variablen:
+* Gruppenteilnehmer: 1-10
+* Gruppen: A oder B
+* Programmiersprache: C und objective  C (Gruppe A in dieser Reihenfolge, B anders herum)
+* Wartungsaufgaben: 2 Wartungstasks jeweils in C und obj. C ausführen 
+
+* Weitere Infos: was heißt GPA etc.
+
+4. What information is given about participants and how they were found? What
+additional information would you like?
+
+* 24 Studenten eines College senior level- Kurses "Object-Oriented Software Engineering" mit Voraussetzung des Kurses " Introduction to Software Engineering"
+* 2 "graders" die die Daten sammeln und erfassen, 2 pretester, die die angemessene Komplexität und Vergleichbarkeit der Task sicher stellen sollten
+* 2 Gruppen von je 10 Studenten waren die letztendlichen Testgruppen
+
+Weitere Infos: -
+
+5. What information is given about how representative the sample is of the wider
+population from which conclusions are drawn? Are you satisfied that the sample is
+representative?
+
+* trotz dem es Studenten waren, kamen gute Ergebnisse zu Tage
+* weniger Module und Sektionen und LOC wurde modifiziert in obj. C
+* weniger Zeilen wurden hinzugefügt 
+
+6. What information is given about the apparatus and the process the researchers
+used to make measurements? What additional information would you like?
+
+* Es gab eine "warm up"-Aufgabe für alle 
+* identische Programme in C und objective C eines "laundry-list handlers
+* 2 Datensets: 
+- wurden aus Fragebögen generiert
+- 1. Set beschrieb die Teilnehmer, um zu zeigen, dass die Teilnehmer und Gruppen homogen waren
+- 2. Set beschrieb die Aufgaben-Daten, die zeigen sollten, dass kein Bias der Studenten vorlag und die Fähigkeiten von C und obj. C aufzeigen sollte
+* automatische Datensammlung mit Hilfe von Code-Analyse und Programmtests (source code Vgl. mit Original, Größe, LOC etc.)
+
+* zudem wurden Hintergrunddaten mit Hilfe eins 3 Seiten Fragebogens gesammelt (Subjektives: Schwierigkeit der Aufgaben und Fragebögen)
+
+7. What limitations in their experiment strategy do the researchers recognize?
+* obj. C und dann C - Aufgaben wurden als schwerer empfunden 
+* sonst nichts
+8. Given your current state of knowledge, can you identify other flaws or omissions
+in the researchers’ reporting of their experiment?
+Nein 
+9. Assuming their statistical analysis is correct, have the researchers convinced you
+that they have demonstrated cause and effect?
+Ja
+10. Overall, how effectively do you think the experiment strategy has been reported
+and used?
+Es würe hilfreich wenn die Analyse der Daten ausführlicher dargestellt worden wäre.
+
+#### task7-1 ####
+
+- steht im Wiki
