@@ -1,0 +1,57 @@
+#### Übung 9: Empirische Bewertung - Abgabe: Christoph Krüger, Robert Fels ####
+
+#### task9-1 ####
+
+1)
+
+a)
+mean average (Durchschnitt):
+mode (?):
+median:
+b)
+3rd quartile:
+9th decile:
+c)
+mean absolute deviation (?):
+variance:
+standard deviation (Standardabweichung):
+d)proportion of total sick-leave time represented by the 8 most frequently ill employees
+
+2)
+significant result (?):
+significant effect (?):
+big effect (?):
+
+R-Code:
+
+
+
+#### task9-2 ####
+
+1. What kinds of quantitative data were analyzed (for example: nominal, ordinal)?
+
+2. Do the researchers use appropriate visual aids to explain their data and data
+analysis?
+
+3. What means do the researchers use, if any, for describing the central tendency,
+distribution and relationships in the data?
+
+4. Do the researchers justify their choice of statistical measures and tests, or
+assume that the reader will know what they are and why they are used?
+
+5. Do the researchers discuss the null hypothesis?
+
+6. How much of the report is concerned with analysis, and how much with
+interpretation of the results? Do you think the balance is appropriate?
+
+7. Are the researchers’ conclusions justified on the basis of the data they have
+presented?
+
+8. What limitations in their quantitative data analysis do the researchers recognize?
+
+9. Can you identify other flaws or omissions in the researchers’ use of quantitative
+data analysis?
+
+10. Overall, how effectively do you think quantitative data analysis has been reported
+and used?
+
