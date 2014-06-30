@@ -2,27 +2,70 @@
 
 #### task9-1 ####
 
-1)
+#1)
 
-a)
-mean average (Durchschnitt):
-mode (?):
-median:
-b)
-3rd quartile:
-9th decile:
-c)
-mean absolute deviation (?):
-variance:
-standard deviation (Standardabweichung):
-d)proportion of total sick-leave time represented by the 8 most frequently ill employees
+NE=c(5,9,13,9,8,4,2)
 
-2)
-significant result (?):
-significant effect (?):
-big effect (?):
+AD=c(0,3,5,9,12,18,21)
 
-R-Code:
+x = data.frame(AD,NE)
+
+#a)
+
+#mean average (Durchschnitt):
+
+mean(c(mapply(rep, x$AD,x$NE),recursive=TRUE))
+
+#mode:
+
+x$AD[which(x$NE==max(x$NE))]
+
+#median:
+
+median(c(mapply(rep, x$AD,x$NE),recursive=TRUE))
+
+#b)
+
+#3rd quartile:
+quantile(c(mapply(rep, x$AD,x$NE),recursive=TRUE),probs=(3/4))
+
+#9th decile:
+
+quantile(c(mapply(rep, x$AD,x$NE),recursive=TRUE),probs=(9/10))
+
+#c)
+
+employes <- c(mapply(rep, x$AD,x$NE),recursive=TRUE)
+
+#mean absolute deviation:
+
+mad(employes,center=mean(employes))
+
+#variance:
+var(employes)
+
+#standard deviation (Standardabweichung):
+sd(employes)
+
+#d)proportion of total sick-leave time represented by the 8 most frequently ill employees
+sum(tail(employes,8))/sum(employes)
+
+#2)
+
+#significant result:
+
+# signifficant result bedeutet, dass die Wahrscheinlichkeit, dass der Zufall
+#das beobachtetet Ergebnis erzeugt gering ist (p≤0.5 ist eine typische, aber
+#nicht starre Regel).
+
+
+#significant effect:
+Es gibt einen statistisch wahrscheinlichen Effekt, der jedoch auch sehr gering sein kann.
+
+#big effect:
+# Big effect wird über den Korrelationscoeffizienten bestimmt. Die meisten 
+# quellen geben 0.5 einige wenige 0.8 als big an.
+# In jedem Fall sind auch dies nur grobe Richtwerte.
 
 
 
